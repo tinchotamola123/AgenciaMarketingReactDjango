@@ -58,12 +58,15 @@ function NavBar() {
                         <NavLink to='/contacto' className="text-lg inline-flex font-medium leading-6 text-gray-900 border-b-2 border.white hover:border-orange-500 transition duration-300 ease-in-out mx-4">
                             Contacto
                         </NavLink>
-                        <button
+                        <Link to={'https://wa.me/261723130'}>
+                        <button 
                             type="button"
                             className="ml-12 relative inline-flex items-center rounded-md border border-transparent bg-orange-button px-6 py-2 text-lg font-bold text-white shadow-sm hover:transition hover:duration-300 hover:ease-in-out hover:bg-black focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2">
                             Hire Us
                             <img src={loading_dots} className='w-7 h-2 mt-0.5 ml-2' />
                         </button>
+                        </Link>
+                        
                     </div>
                 </div>
                 <div className="-ml-4 -mt-2 lg:hidden flex flex-wrap items-center justify-between sm:flex-nowrap md:px-14 px-2">
