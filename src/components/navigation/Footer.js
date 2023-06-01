@@ -1,5 +1,5 @@
 import { connect } from 'react-redux';
-import logo_boomslag from 'assets/img/boomslag-black.png';
+
 
 const navigation = {
     solutions: [
@@ -97,7 +97,7 @@ function Footer() {
                 <div className="xl:grid xl:grid-cols-3 xl:gap-8">
                     <div className="space-y-8 xl:col-span-1">
                     <img 
-                        src={logo_boomslag}
+                        src='https://bafybeiczl4dcxupma2zeyilkukfl4yge64axnhajd722wxgin62mtts6uy.ipfs.w3s.link/murkivamarketing.png'
                         width={140}
                         height={120}
                         className=''/>

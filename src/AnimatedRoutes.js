@@ -9,6 +9,9 @@ import Error404 from "containers/errors/Error404";
 import Home from "containers/pages/Home";
 
 import {AnimatePresence } from "framer-motion";
+import Category from "containers/pages/Category";
+import Search from "containers/pages/Search";
+import PostDetail from "containers/pages/PostDetail";
 
 function AnimatedRoutes() {
 
@@ -26,6 +29,9 @@ function AnimatedRoutes() {
                 <Route path="/nosotros" element={<About />}></Route>
                 <Route path="/carreras" element={<Careers />}></Route>
                 <Route path="/blog" element={<Blog />}></Route>
+                <Route path="/blog/:slug" element={<PostDetail />}></Route>
+                <Route path="/s=:term" element={<Search />}></Route>
+                <Route path="/category/:slug" element={<Category />}></Route>
                 <Route path="/contacto" element={<Contact />}></Route>
             </Routes>
         </AnimatePresence>
